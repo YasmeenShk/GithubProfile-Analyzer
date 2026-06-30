@@ -83,7 +83,7 @@ export default function StatsCard({ username }) {
 
     return (
         <div className="max-w-3xl mx-auto px-6 pb-6">
-            <div className=" text-xl font-semibold text-gray-400 dark:text-slate-500 mb-6">
+            <div className=" text-base font-semibold text-gray-400 dark:text-slate-500 mb-6">
                 <h3>
                     Quick Stats</h3>
             </div>

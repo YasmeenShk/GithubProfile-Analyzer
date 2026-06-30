@@ -2,13 +2,14 @@ import { useState } from "react";
 import SearchScreen from "./components/SearchScreen";
 import Profile from "./components/Profile";
 import Statscard from "./components/Statscard";
+import Charts from "./components/Charts";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false); // dark mode
   const [username, setUsername] = useState(null);   // searched username
 
   return (
-
+   
 
     // dark Mode 
  <div className={darkMode ? "dark" : ""}>
@@ -42,6 +43,8 @@ function App() {
 
             <Profile username={username} />
             <Statscard username={username} />
+            <Charts username={username} />
+
           </>
         )}
 
